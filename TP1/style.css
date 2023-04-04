@@ -1,0 +1,47 @@
+body{
+    background-color: aqua;
+}
+
+.composant {
+    margin-bottom: 10px;
+}
+.note textarea {
+    resize:none;
+    width: 100%;
+    height: 300px;  
+}
+.bnt{
+    background-color:rgb(14, 116, 14);
+    color: aliceblue;
+    float: right; 
+    box-shadow :10px 10px(0,0,0,0); 
+
+}
+
+.note .header{
+    background-color: rgba(0, 255, 38, 0.366);
+    width: 98%;
+    padding: 0.5rem;
+}
+.list{
+    width: 15%;
+
+}
+
+.note{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#liste_composants{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+textarea:focus{
+background-color:  rgb(4, 255, 0);
+}
+
+

@@ -1,0 +1,69 @@
+body {
+    background-color: gainsboro;
+}
+
+.bnt{
+    display: flex;
+    align-items:right ; 
+}
+.principale{
+    padding: 200px;
+    border: 2px solid rgb(234, 226, 226);
+    width: 60%;
+    height: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 50px;
+    padding-right: 5px;
+    margin: 2px; 
+    background-color:white;
+    margin-top: 5%;
+    
+
+}
+
+.bnt button{
+    padding: 20px;
+    border: 2px solid gainsboro;
+    width: 200px;
+    height: 4px;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: -7px;
+    padding-right: -2px;
+    margin: 2px;
+    cursor:grabbing;
+    font-weight: bold;
+}
+
+.bleu{
+    background-color: rgb(135, 135, 217);
+    color: white;
+}
+
+.rouge{
+    background-color:rgb(148, 27, 27);
+    color: white;
+
+}
+
+.vert{
+    background-color:green;
+    color: rgb(225, 218, 218);
+
+}
+
+.jaune{
+    background-color: orange;
+    color: white;
+
+}
+
+.clique{
+    background-color: green;
+    width: 6%;
+    height: 50px;      
+    float: right;
+    border-radius: 9px;
+}
